@@ -1,3 +1,5 @@
 const clock=document.querySelector('#clock')
-let localtime=new Date().toLocaleTimeString()
-// alert(localtime)
+setInterval(()=>{
+    let localtime=new Date().toLocaleTimeString()
+    clock.innerHTML=localtime
+},1000)
