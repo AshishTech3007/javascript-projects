@@ -1,4 +1,3 @@
-console.log('Project 5');
 const insert = document.querySelector('#insert');
 window.addEventListener('keydown', function (e) {
   console.log(e.keycode);
